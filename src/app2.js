@@ -10,9 +10,9 @@ $tabBar.on('click', 'li', e => {
     localStorage.setItem('item', liIndex)
     // console.log(liIndex)
     console.log(`index${index1}`)
-    $tabBar.children().eq(index1).addClass('selected').siblings().removeClass('selected')
+    $tabBar.children().eq(liIndex).addClass('selected').siblings().removeClass('selected')
 
-    $tabContent.children().eq(index1).addClass('active').siblings().removeClass('active')
+    $tabContent.children().eq(liIndex).addClass('active').siblings().removeClass('active')
     // 找到tabContent的儿子们的第index个的css设置为display block 而兄弟们设置display none
 })
 //事件委托

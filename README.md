@@ -9,7 +9,7 @@
 
 ## 预览
 
-预览地址:[https://huyiling1111.github.io/mvc-demo2/dist/](https://huyiling1111.github.io/mvc-demo2/src/)
+预览地址:[https://huyiling1111.github.io/mvc-demo2/src/](https://huyiling1111.github.io/mvc-demo2/src/)
 
 ## 运行
 

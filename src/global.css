@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+*::before,
+*::after {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+#page {
+  display: flex;
+  flex-wrap: wrap;
+}
+#app1,
+#app2,
+#app3,
+#app4 {
+  outline: 1px solid red;
+  width: 50vw;
+  height: 50vh;
+}
